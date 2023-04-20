@@ -34,7 +34,7 @@ puts "The total is: #{total}"
 #4. add if statement if total == 7 || 11, winner
 if total == 7 || total == 11
     puts "YOU WIN!"
-    # add else if total == 2 | 3 | 12
+    # add else if total == 2 | 3 | 12, loser
 elsif total == 2 || total == 3 || total == 12 
     puts "YOU LOSE!"
     #add else to read the point 
