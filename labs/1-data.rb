@@ -15,3 +15,13 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+#putting the dice in memory 
+die1 = rand (1..6)
+die2 = rand (1..6)
+#puts "first die:#{die1}"
+#puts "second die:#{die2}"
+
+#output "Total: ..."
+total = die1 + die2
+puts "Total: #{total}"
